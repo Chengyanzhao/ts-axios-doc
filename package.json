@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "deploy": "sh build.sh"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   "homepage": "https://github.com/ustbhuangyi/ts-axios-doc#readme",
   "devDependencies": {
     "vuepress": "^1.0.0-alpha.44"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1"
   }
 }
